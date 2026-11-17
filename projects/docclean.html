@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DocClean | Alex Cranford</title>
+  <meta name="description" content="DocClean turns monthly distributor reports into Maryland motor fuel tax filings, cutting prep from several days to under two hours.">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header wrap">
+    <a class="site-name" href="../index.html">Alex Cranford</a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="../index.html">About</a></li>
+        <li><a href="../projects.html" aria-current="page">Projects</a></li>
+        <li><a href="../blog/index.html">Blog</a></li>
+        <li><a href="../resume.html">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" class="wrap">
+    <a class="crumb" href="../projects.html">All projects</a>
+
+    <div class="project-intro">
+      <h1>DocClean</h1>
+      <p class="lede">A web app that turns monthly distributor reports into Maryland motor fuel tax filings, with a person checking every number before anything is filed.</p>
+      <dl class="facts">
+        <div><dt>Where</dt><dd>B&amp;A Metal Graphics</dd></div>
+        <div><dt>My role</dt><dd>Co-builder, with a colleague</dd></div>
+        <div><dt>Built with</dt><dd>Claude Code</dd></div>
+        <div><dt>Result</dt><dd>Several days of prep down to under two hours</dd></div>
+      </dl>
+    </div>
+
+    <section class="section" aria-labelledby="problem-title">
+      <h2 id="problem-title">The problem</h2>
+      <div class="section-body prose">
+        <p>Every month, the company has to file Maryland Motor Fuel Tax returns on forms 768 and 769. The numbers come from reports sent by distributors, and turning those reports into finished filings was done by hand. It took several days each month.</p>
+        <p>Speed wasn't the only concern. These are tax filings, so any shortcut had to be at least as accurate as doing it by hand.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="did-title">
+      <h2 id="did-title">What I did</h2>
+      <div class="section-body prose">
+        <ul>
+          <li>Gathered requirements with my colleague: what the distributor reports contain, what each form needs, and where the manual process slowed down.</li>
+          <li>Built DocClean with Claude Code to read the monthly reports and produce the 768 and 769 filings.</li>
+          <li>Designed a human review step. Before anything is filed, a person checks DocClean's output against the original source reports.</li>
+        </ul>
+        <!-- Add more detail here: how the app works, a screenshot, problems you ran into and how you solved them. -->
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="result-title">
+      <h2 id="result-title">The result</h2>
+      <div class="section-body prose">
+        <p>Monthly filing prep went from several days to under two hours. The review step keeps a person responsible for every number that goes to the state.</p>
+      </div>
+    </section>
+
+    <nav class="next-project" aria-label="Next project">
+      <p>Next project</p>
+      <a href="diet-tracker.html">Image-based diet tracker</a>
+    </nav>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <h2>Get in touch</h2>
+      <ul class="contact">
+        <li><a href="mailto:alexcran1234@gmail.com">alexcran1234@gmail.com</a></li>
+        <li><a href="https://www.linkedin.com/in/alex-cranford">LinkedIn</a></li>
+        <li><a href="https://github.com/cranforda06">GitHub</a></li>
+      </ul>
+      <p class="fine-print">© 2026 Alex Cranford</p>
+    </div>
+  </footer>
+</body>
+</html>
